@@ -9,7 +9,7 @@ import xlsxwriter
 
 def main():
     
-    print("Written by Furkan Ciylan \nContact me: furkanciylan@gmail.com")
+    print("Written by Furkan Ciylan \nContact me: furkanciylan@gmail.com\nGithub: /HawkPhantom")
     
     a = input("Do you want to configure the software? Y/N:")
     
@@ -143,7 +143,7 @@ def modbus(a,conffile_test):
         
             client.close()
         
-            time.sleep(3)
+            time.sleep(1)
             
         except:
             return 0
