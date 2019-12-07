@@ -1,0 +1,10 @@
+{
+"method":"rtu",
+"port":"COM7",
+"timeout":"10",
+"baudrate":"19200",
+"stopbits":"1",
+"parity":"E",
+"bytesize":"8",
+"number_of_registers":"7"
+}
