@@ -17,7 +17,13 @@ parity:Even
 
 bytesize:8 
 
-number of input registers:7
+number_of_holding_registers:8
+
+number_of_input_registers:8
+
+number_of_coils:8
+
+address:0x00
   
 Refresh time is 1 second
 
