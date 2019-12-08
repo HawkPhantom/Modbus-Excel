@@ -1,11 +1,11 @@
 # Modbus-Excel
-A tool to read input registers in real-time from Excel (xlsx)
+A tool to read holding registers, input registers and coils in real-time from Excel (xlsx) with Modbus Serial Communication Protocol
 
 Default Configuration Is: 
 
 method:rtu 
 
-port:COM6 
+port:COM7
 
 timeout:10(ds) 
 
