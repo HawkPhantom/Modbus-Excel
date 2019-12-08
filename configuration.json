@@ -6,5 +6,8 @@
 "stopbits":"1",
 "parity":"E",
 "bytesize":"8",
-"number_of_registers":"7"
+"number_of_holding_registers":"8",
+"number_of_input_registers":"8",
+"number_of_coils":"8",
+"address":"0x00"
 }
