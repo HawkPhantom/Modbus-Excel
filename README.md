@@ -30,7 +30,7 @@ Refresh time is 1 second
 
 ----------------------------------------
 
-Software is using Python 3.8
+Written in Python 3.8
 
 ----------------------------------------
 
