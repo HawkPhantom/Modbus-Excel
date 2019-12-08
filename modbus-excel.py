@@ -98,14 +98,21 @@ def modbus(a,conffile_test,name):
             
             
         parity_1 = input("Please enter the parity (E for even/O for odd/N for none):")
-        parity_1 = parity_1.lower()
         if (parity_1 != ""):
+            parity_1 = parity_1.lower()
             if(parity_1 == "even"):
                  parity_1 = "E"
             elif(parity_1 == "odd"):
                 parity_1 = "O"
             elif(parity_1=="none"):
                 parity_1 = "N"
+            elif(parity_1 == "e"):
+                parity_1="E"
+            elif(parity_1 == "o"):
+                parity_1="O"
+            elif(parity_1=="n"):
+                parity_1="N"
+            
                     
             parity=parity_1
             raw_data["parity"] = parity
