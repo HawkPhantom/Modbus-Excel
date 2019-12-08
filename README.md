@@ -1,6 +1,7 @@
 # Modbus-Excel
 A tool to read holding registers, input registers and coils in real-time from Excel (xlsx) with Modbus Serial Communication Protocol
 
+-------------------------------------
 Default Configuration Is: 
 
 method:rtu 
@@ -27,6 +28,16 @@ address:0x00
   
 Refresh time is 1 second
 
+----------------------------------------
+
+Software is using Python 3.8
+
+----------------------------------------
+
 Written by: Furkan Ciylan
+
 Contact Me: furkanciylan@gmail.com
+
 Github: /HawkPhantom
+
+----------------------------------------
