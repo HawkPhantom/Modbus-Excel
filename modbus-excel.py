@@ -121,24 +121,24 @@ def modbus(a,conffile_test,name):
         if(read_selector == "1"):
             try:
                 number_of_holding_registers_1 = int(input("Please enter the number of holding registers to read:"))
-                raw_data["number_of_holding_registers"] = number_of_holding_registers_1
-                number_of_holding_registers =  str(number_of_holding_registers_1)    
+                raw_data["number_of_holding_registers"] = str(number_of_holding_registers_1)
+                number_of_holding_registers =  number_of_holding_registers_1
             except:
                 pass
             
         elif(read_selector == "2"):
             try:
                 number_of_input_registers_1 = int(input("Please enter the number of input registers to read:"))
-                raw_data["number_of_input_registers"] = number_of_input_registers_1
-                number_of_input_registers =  str(number_of_input_registers_1)    
+                raw_data["number_of_input_registers"] = str(number_of_input_registers_1)
+                number_of_input_registers =  number_of_input_registers_1
             except:
                 pass
             
         elif(read_selector == "3"):
             try:
                 number_of_coils_1 = int(input("Please enter the number of coils to read:"))
-                raw_data["number_of_coils"] = number_of_coils_1
-                number_of_coils =  str(number_of_coils_1)    
+                raw_data["number_of_coils"] = str(number_of_coils_1)
+                number_of_coils =  number_of_coils_1
             except:
                 pass
             
