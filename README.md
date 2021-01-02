@@ -1,5 +1,5 @@
 # Modbus-Excel
-A tool to read holding registers, input registers and coils in real-time from Excel (xlsx) with Modbus Serial Communication Protocol
+A tool to read holding registers, input registers and coils of a device in real-time on Excel (xlsx) with Modbus Serial Communication Protocol
 
 -------------------------------------
 Default Configuration Is: 
